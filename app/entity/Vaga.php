@@ -52,7 +52,7 @@ class Vaga{
             'descricao' => $this->descricao,
             'ativo' => $this->ativo,
             'data' => $this->data,
-        ]);
+        ]) ;
 
         echo "<pre>"; print_r($this); echo "</pre>"; exit;
 
